@@ -131,3 +131,23 @@ function palindrome(str) {
 }
 
 console.log(palindrome("abhishek"))
+
+//9.how to add total elements in an array using for loop and using reduce method
+//using reduce method 
+
+let arr =[1,2,3,4,5,6]
+
+let arr2=arr.reduce((item,index)=>{
+    return item+index
+})
+console.log(arr2)
+
+// using for loop
+let arr =[1,2,3,4,5,6]
+let totalelements=0
+for(let i=0;i<arr.length;i++){
+    totalelements+=arr[i]
+    
+}
+
+console.log(totalelements)
