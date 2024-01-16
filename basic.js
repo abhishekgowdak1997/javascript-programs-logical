@@ -36,7 +36,7 @@ function numberToString(number) {
 }
 console.log(numberToString(8))
 
-//3. write a function to return a string using for loop 
+//3. write a function to return a reverse string using for loop 
 
 let name = "abhishek"
 let reverse = ""
